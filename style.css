@@ -48,11 +48,53 @@ header {
 }
 
 .div-01 {
-    background-color: rgb(168, 132, 13);
+    background-color: grey;
     color: white;
     text-align: center;
     font-size: 2rem;
     width: 25%;
     height: 25rem;
     min-width: 299px;
+}
+
+.div-01 p {
+    margin-top: 1rem;
+}
+
+.ul-divs li a {
+    text-decoration: none;
+    background-color:rgb(150, 13, 13);
+    color: white;
+    padding: 5px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.ul-divs li {
+    margin: 5px ;
+}
+
+
+.fa-house, .fa-dumbbell {
+    color: white;
+    font-size: 1.3rem;
+}
+
+
+
+.div-02 {
+padding: 1rem;
+width: 25%;
+height: 25rem;
+min-width: 299px;
+background: url(pngtree-rows-of-dumbbells-in-the-gym-image_15662386.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 15px;
+
 }
