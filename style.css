@@ -48,11 +48,24 @@ header {
 }
 
 .div-01 {
-    background-color: rgb(168, 132, 13);
+    background-color: grey;
     color: white;
     text-align: center;
     font-size: 2rem;
     width: 25%;
     height: 25rem;
     min-width: 299px;
+}
+
+.div-01 p {
+    margin-top: 1rem;
+}
+
+.ul-divs li a {
+    text-decoration: none;
+    background-color: rgb(150, 13, 13);
+    color: white;
+    padding: 5px;
+    font-size: 1.2rem;
+    border-radius: 5px;
 }
