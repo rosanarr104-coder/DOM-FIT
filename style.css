@@ -98,5 +98,221 @@ flex-direction: column;
 gap: 15px;
 
 }
+.parte dos icon {
+    color: white;
+    font-size: 1.3rem;
+}
 
-.
+/*Aqui estamos utilizando a tarja em destaque entre as sections */
+.img-div {
+    padding: 3%;
+    /* preenchimento interno */
+    background-image: url();
+    /* caminho da img*/
+    background-position: center;
+    /* posicionamento da img */
+    background-size: cover;
+    /* preenchimento total da img na caixa */
+}
+
+/* Estilizando a segunda section */
+.section-2 {
+display: flex;
+/* tornando o flex/lado a lado*/
+justify-content: center;
+/* alinhamento horizontal */
+align-items: center;
+/* alinhamento vertical */
+gap: 1.5rem;
+/* brecha entre as caixas */
+padding: 5rem;
+/*preenchimento interno */
+background-color: grey;
+/* cor de fundo */
+flex-wrap: wrap;
+/* CASO NECESSÁRIO VOCÊ PODERÁ QUEBRAR */
+}
+
+/*Estilização das 3 div sec 2 */
+.caixa {
+    width: 25%;
+    /*Largura da caixa */
+    height: 22rem;
+    /*altura da caixa */
+    background-color: white;
+    /* cor de fundo */
+    min-width: 299px;
+    /*Largura minima da div */
+    font-size: 1.2rem;
+    /* Tamanho das letras */
+    color: black;
+    /* cor dos textos */
+    box-shadow: 10px 10px 20px rgba(245, 222, 179, 0.354);
+   /*sombra externa das caixas*/
+   cursor: pointer;
+   /* ativando o cursor pointer */
+}
+
+.caixa-card img {
+    width: 100%;
+    height: 45%;
+}
+
+.caixa-card p {
+    margin: 0.5rem 1rem;
+    color: black;
+}
+
+.caixa-card h3 {
+    color: black;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.caixa-card button {
+    background-color: brown;
+    color: beige;
+    padding: 7px;
+    width: 5rem;
+    border: none;
+}
+.caixa:hover {
+ box-shadow: 12px 12px 22px rgba(245, 222, 179, 0.557);
+/*sombra externa das caixas*/
+transition: 0.8s;
+}
+
+/*Estilização da section 3 */
+.section-3 {
+    display: flex;
+    /* tornando flex/lado a lado */
+    justify-content: center;
+    /*alinhamento horizontal */
+    align-items: center;
+    /* alinhamento vertical */
+    gap: 1.5rem;
+    /*brecha entre as caixas */
+    padding: 5rem;
+    /*preenchimento interno */
+    background-color: aquamarine;
+    /* cor de fundo */
+    flex-wrap: wrap;
+    /*CASO NECESSÁRIO VOCÊ PODERÁ QUEBRAR */
+}
+/* Chamando as classes primárias para a estilização */
+.div-03,
+.div-04 {
+    height: 15rem; /*altura das caixas */
+    padding: 1rem;
+    /* preenchimento interno */
+    text-align: center;
+}
+
+/*Estilização dos textos na primeira caixa */
+.content-text {
+    text-align: start;
+    /*alinhando os textos ao início */
+    margin: 1rem;
+    /*espaço em torno da caixa */
+    color: blue;
+    /*cor dos textos */
+    font-weight: 500;
+    /*peso da font */
+}
+
+/*acessando os icons para a estilização */
+.icon-div3 i {
+    color: blueviolet;
+    /* cores dos icon */
+    font-size: 2.8rem;
+    /* Tamanho dos icon */
+    margin-top: 1.2rem;
+    /*Espaçamento superior dos icon */
+}
+/* início da formatação caixa 02 section 3 */
+.button-div4 a button {
+    padding: 0.5rem;
+    /*preenchimento interno button */
+    background-color: blue;
+    /* cor de fundo */
+    color: white;
+    /* cor do text */
+    font-weight: 600;
+/* peso da font */
+margin: 1rem 0;
+/*espaçamento sup/inf 1rem, e 0 nas laterais */
+}
+
+.text-div04 p  {
+    color: bisque;
+}
+
+/* início da estilização rodapé */
+.rodape {
+    background-color: blue;
+    /* cor de fundo do rodapé */
+    padding: 2rem;
+    /* 32px */
+    text-align: center;
+    /* alinhando o texto centro */
+    font-size: 1.1rem;
+    /* definindo o texto no text */
+}
+
+.content {
+    display: flex;
+    /* Flex box / lado a lado */
+    align-items: center;
+    /*alinhamento vertical */
+    justify-content: center;
+    /*alinhamento horizontal */
+    gap: 3rem;
+    /* espaçamento dos elementos */
+    flex-wrap: wrap;
+    /*quebra das caixas */
+    margin-bottom: 1.5rem;
+}
+
+/* espaçamento nas div que guarda os icon */
+.social-media i {
+    color: beige;
+    /* cor dos icons */
+    font-size: 2rem;
+    /* 32px |Tamanho dos icon */
+    margin: 0.5rem;
+    /*espaçamento em volta dos icon (4 lados) */
+}
+
+/* linha divisão nas linhas principais */
+.line {
+    width: 60%;
+    margin: 0.5rem auto;
+    /*espaçamento em torno das linha superior e  inferior (0.5rem) com as laterais automáticas (navegador */
+background-color: blanchedalmond;
+/*cor de fundo do hr */
+border: none;
+/* remover as bordas por padrão */
+height: 2px;
+/* devinir a altura da linha */
+}
+
+.div-list ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.div-list ul li {
+    margin-bottom: 0.7rem;
+}
+
+.div-list ul a:hover {
+    text-decoration: none;
+    margin-top: 1rem;
+    color: azure;
+    transition: 0.8s;
+}
+    @media (max-width: 600px) {
+        .content {
+            flex-direction: column;
+        }
+    }
