@@ -16,3 +16,41 @@ body {
 .google-btn img {
     width: 20px;
 }
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px; /* Definir a largura do container em 400px */
+    box-shadow: 0 10px 25px black;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: black;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-group label {
+    display: block; /* Mantendo o compartamento do elemento em bloco () */
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none; /*remove o contorno (borda extrema) do elemento */
+    transition: 0.3s;
+}
+
+.input-group input:focus{
+    border-color: ;
+}
